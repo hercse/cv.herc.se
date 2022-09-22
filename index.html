@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="half.min.css" />
     <link rel="stylesheet" href="grid.min.css" />
     <link rel="stylesheet" href="https://use.typekit.net/ali7qwy.css" />
+    <link rel="stylesheet" href="loader.min.css" />
     <style>
       :root {
         --half-color-primary: #235ba8;
@@ -29,14 +30,20 @@
         transition-delay: 0s;
         transform: scale(0.98);
       }
+      body > .grid {
+        padding: 2vmin;
+      }
     </style>
   </head>
   <body half-risopaper half-grain>
+    <div class="loader">
+      <h3 font-700>LOADING</h3>
+    </div>
     <div
       class="grid column-2 m:column-5"
       style="
         position: sticky;
-        z-index: 1000;
+        z-index: 50;
         top: 0;
         left: 0;
         width: 100%;
@@ -141,16 +148,12 @@
         }
       </style>
       <div>
-        <img
-          src="https://i.pinimg.com/564x/6c/f2/62/6cf262a6a4501f06a751f2ebf19badf8.jpg"
-          style="height: 80vh"
-          alt=""
-        />
+        <img src="images/RISOGRAPH POSTCARDS.jpg" style="height: 80vh" alt="" />
         <h6 font-500>Risograph Postcards</h6>
       </div>
       <div>
         <img
-          src="https://i.pinimg.com/564x/e0/bc/60/e0bc607e1832393d84f8716874b956e5.jpg"
+          src="https://i.pinimg.com/564x/38/d0/92/38d0929ea8a42c0406d8c4b77f718c1a.jpg"
           style="height: 80vh"
           alt=""
         />
@@ -158,7 +161,7 @@
       </div>
       <div>
         <img
-          src="https://i.pinimg.com/564x/e6/7f/7f/e67f7fad44cba58860d88801ad7df3a6.jpg"
+          src="https://i.pinimg.com/564x/38/d0/92/38d0929ea8a42c0406d8c4b77f718c1a.jpg"
           style="height: 80vh"
           alt=""
         />
